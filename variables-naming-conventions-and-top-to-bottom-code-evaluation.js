@@ -24,9 +24,26 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
+/*let a = "Alice"; 
+// the variable name "a" is too vague and non-descriptive
+ let b = 5;
+ // the variable name 'b' is too vague and non-descriptive
 let c = 20;
+// the variable name 'c' is too vague and non-descriptive
 let d = a + " bought " + b + " items for $" + c + ".";
+// the variable 'd' is also too vague and non descriptive 
 
 console.log(d);
+
+Below is the enhanced program with two new variables
+*/
+
+let day = "Friday";
+let customerName = "Alice";
+let numofItems = 5;
+let price = 20;
+let store = "TJ Maxx";
+
+let storeSales = "On " + day + ", " + customerName + " bought " + numofItems + " items from " + store + " for $" + price + ".";
+
+console.log(storeSales);
